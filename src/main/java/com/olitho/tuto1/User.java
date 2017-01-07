@@ -1,10 +1,8 @@
-package com.olitho.jpa;
+package com.olitho.tuto1;
 
 import javax.persistence.*;
 
-/**
- * Created by thomas on 02/01/2017.
- */
+
 @Entity // map to table User
 public class User
 {
@@ -16,7 +14,8 @@ public class User
     private String email;
 
     //default constructor must be present (bean)
-    public User() {
+    public User()
+    {
     }
 
     public User(String email) {
@@ -26,15 +25,11 @@ public class User
     public Integer getId() {
         return id;
     }
-
-    public void setId(Integer id) {
-        this.id = id;
-    }
+    public void setId(Integer id) {this.id = id;}
 
     public String getEmail() {
         return email;
     }
-
     public void setEmail(String email) {
         this.email = email;
     }

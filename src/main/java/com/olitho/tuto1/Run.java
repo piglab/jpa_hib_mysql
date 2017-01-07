@@ -1,4 +1,4 @@
-package com.olitho.jpa;
+package com.olitho.tuto1;
 
 import javax.persistence.EntityManager;
 import javax.persistence.EntityManagerFactory;
